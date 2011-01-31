@@ -36,7 +36,7 @@ into standard PDF that can be viewed or printed.
 
 %build
 chmod +x configure
-%{configure} --with-freetype2=`freetype-config --prefix` 
+%configure2_5x --with-freetype2=`freetype-config --prefix` 
 make %{?_smp_mflags}
 
 # # # # # # # # # #
