@@ -5,7 +5,7 @@ Release: %mkrel 1
 License: GPLv2+
 Group: Publishing
 Source: http://scripts.sil.org/svn-view/xdvipdfmx/TAGS/xdvipdfmx-%{version}.tar.gz
-URL: http://scripts.sil.org/xetex_linux
+URL: https://scripts.sil.org/xetex_linux
 
 Requires: tex(tex), dvipdfmx
 # dvipdfmx is required because some data files are shared
